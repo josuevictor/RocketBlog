@@ -38,17 +38,20 @@ a {
   color: var(--button-bg);
 }
 
+.container{
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
 /*############# HEADER ###############*/
 
 header {
   background: var(--purple-bg);
-  padding: 4rem 0;
 }
 
 nav {
   display: flex;
   justify-content: space-evenly;
-
   padding: 3rem 0;
   margin-bottom: 4rem;
 }
@@ -83,7 +86,9 @@ nav ul li {
 
 section.header-content {
   display: flex;
+  align-items: center;
   justify-content: space-evenly;
+  padding: 5rem 0;
 }
 
 div.text-content {
@@ -98,22 +103,22 @@ main {
 
 }
 
-section.main-post{
+section.post-main{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 5rem 0;
-  width: 100vw;
 }
 
 .post{
-  width: 56.9rem;
+  width: 50rem;
 }
 
 .bottom-post-container {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  justify-content: space-evenly;
   padding: 5rem 0;
+
 }
 
 .main-post {
